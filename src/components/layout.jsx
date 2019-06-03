@@ -39,7 +39,7 @@ export default ({ children, currentPageID, environment, pages }) => {
 
         <link rel="icon" type="image/png" href="/images/favicon.png" />
 
-        <link rel="stylesheet" href="/components/css/index.css" />
+        <link rel="stylesheet" href="./components/css/index.css" />
 
       </head>
       <body>

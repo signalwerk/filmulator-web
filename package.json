@@ -26,9 +26,5 @@
   "homepage": "https://github.com/signalwerk/filmulator-web#readme",
   "devDependencies": {
     "@static/charge": "^1.4.0"
-  },
-  "dependencies": {
-    "@emotion/core": "^10.0.10",
-    "@emotion/styled": "^10.0.11"
   }
 }
