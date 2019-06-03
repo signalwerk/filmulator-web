@@ -1,0 +1,29 @@
+:root {
+  --color-white: #ffffffff;
+  --color-whiteGrayH: #e0e0e0;
+  --color-whiteGray: #d0d0d0;
+  --color-whiteGrayL: #c0c0c0;
+  --color-brightGrayH: #b0b0b0;
+  --color-brightGray: #a0a0a0;
+  --color-brightGrayL: #909090;
+  --color-middleGray: #808080;
+  --color-lowGrayH: #707070;
+  --color-lowGray: #606060;
+  --color-lowGrayL: #505050;
+  --color-darkGrayH: #404040;
+  --color-darkGray: #303030;
+  --color-darkGrayL: #202020;
+  --color-blackGray: #101010;
+  --color-whiteOrange: #ffeedd; /* good for orange on black text, strong highlights on orange things */
+  --color-brighterOrange: #ffccaa; /* good for slight oranging of white things to indicate effect */
+  --color-brightOrange: #ffbb66; /* good for subtle highlights on orange things */
+  --color-lightOrange: #ff9922; /* good for thin lines */
+  --color-medOrange: #ff8800; /* perfect middle orange */
+  --color-darkOrangeH: #584c40; /* dark orange for highlighting darkGrayH */
+  --color-darkOrangeL: #403020; /* dark orange for highlighting darkGrayL */
+  --color-weakOrange: #a87848; /* Low saturation for orange bleeding around gray */
+
+  --color-transDarkGray: #ee303030; /* for tooltip backgrounds */
+  --color-thinDarkGray: #50303030;
+  --color-transMiddleGray: #ee808080; /* for tooltip borders */
+}

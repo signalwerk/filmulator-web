@@ -1,0 +1,4 @@
+.New {
+  border: 4px dotted var(--color-primary);
+  padding: 2em;
+}

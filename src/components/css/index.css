@@ -1,0 +1,33 @@
+/* inspiration
+- https://alligator.io/css/minimal-css-reset/
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+@import "../colors.css";
+
+/* basics */
+@import "./basic.css";
+
+@import "./body.css";
+@import "./code.css";
+@import "./blockquote.css";
+@import "./em.css";
+@import "./grid.css";
+@import "./heading.css";
+@import "./hr.css";
+@import "./html.css";
+@import "./img.css";
+@import "./link.css";
+@import "./list.css";
+@import "./p.css";
+@import "./print.css";
+@import "./table.css";
+
+
+
+/* components */
+@import "../Btn/styles.css";
+@import "../Tab/styles.css";
+@import "../Tooltip/styles.css";
+@import "../New/styles.css";

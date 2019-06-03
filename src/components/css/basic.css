@@ -1,0 +1,30 @@
+:root {
+  --green-color: #006984;
+  --color-blue: #0054a2;
+  --color-gray: #e6e8ea;
+  --gray-red: #f00;
+
+  /* semantic */
+  --color-base: black;
+  --color-base-background: none;
+  --color-code-background: var(--color-gray);
+  --color-primary: var(--green-color);
+  --color-secondary: var(--color-blue);
+
+  /* filmulator */
+  --color-base: white;
+  --color-base-background: var(--color-darkGrayH);
+  --color-primary: var(--color-medOrange);
+}
+
+::selection {
+  background: var(--color-primary);
+  color: white;
+  text-shadow: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

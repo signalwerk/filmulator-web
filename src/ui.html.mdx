@@ -1,0 +1,70 @@
+import Layout from "./components/layout.jsx"
+import Tooltip from "./components/Tooltip/"
+import Btn from "./components/Btn/"
+import Tab from "./components/Tab/"
+import New from "./components/New/"
+
+export const meta = {
+  id: "root",
+  title: "About",
+}
+
+export const layout = (props) => <Layout currentPageID={meta.id} {...props} />
+
+
+# User Interface
+
+## Interaction
+* All buttons and elements with click-behaviour have an Outline
+* Active elements have the color orange
+
+
+## Components
+
+
+### Tooltip
+
+#### Old
+<Tooltip
+  className="Tooltip--old"
+  text="This ist the text of the Tooltip"
+/>
+
+
+
+#### New
+
+<New>
+  <Tooltip
+    text="This ist the text of the Tooltip"
+  />
+</New>
+
+
+#### Ideal
+If possible there is a indicator corner facing the direction where the element opens its tooltip
+<Tooltip
+  className="Tooltip--ideal"
+  text="This ist the text of the Tooltip"
+/>
+
+
+### Button
+<Btn
+  text="Buttontext"
+/>
+
+### Tab
+
+#### Default
+<Tab
+  text="Tab"
+/>
+
+&nbsp;
+
+#### Active
+<Tab
+  className="Tab--active"
+  text="Tab"
+/>

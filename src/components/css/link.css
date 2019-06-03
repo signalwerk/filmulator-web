@@ -1,0 +1,19 @@
+
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+a:visited {
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: inherit;
+}
+
+@media print {
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+  }
+}
