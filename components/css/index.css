@@ -46,11 +46,6 @@
   --color-code-background: var(--color-gray);
   --color-primary: var(--green-color);
   --color-secondary: var(--color-blue);
-
-  /* filmulator */
-  --color-base: white;
-  --color-base-background: var(--color-darkGrayH);
-  --color-primary: var(--color-medOrange);
 }
 ::-moz-selection {
   background: #ff8800;
@@ -68,6 +63,13 @@
 *:before,
 *:after {
   box-sizing: inherit;
+}
+:root {
+  /* filmulator */
+  --color-base: white;
+  --color-base-background: var(--color-darkGrayH);
+  --color-primary: var(--color-medOrange);
+  --color-secondary: var(--color-weakOrange);
 }
 body {
   margin: 0;
@@ -99,7 +101,7 @@ pre {
 }
 blockquote {
   font-weight: 700;
-  color: #0054a2;
+  color: #a87848;
   color: var(--color-secondary);
   line-height: 1.7;
   margin-top: 2rem;
@@ -236,12 +238,12 @@ img {
 }
 a {
     text-decoration: none;
-    color: #0054a2;
-    color: var(--color-secondary);
-}
-a:visited {
     color: #ff8800;
     color: var(--color-primary);
+}
+a:visited {
+    color: #a87848;
+    color: var(--color-secondary);
 }
 a:hover {
     color: inherit;
