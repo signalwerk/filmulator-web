@@ -10,11 +10,6 @@
   --color-code-background: var(--color-gray);
   --color-primary: var(--green-color);
   --color-secondary: var(--color-blue);
-
-  /* filmulator */
-  --color-base: white;
-  --color-base-background: var(--color-darkGrayH);
-  --color-primary: var(--color-medOrange);
 }
 
 ::selection {

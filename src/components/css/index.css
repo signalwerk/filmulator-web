@@ -8,6 +8,7 @@
 
 /* basics */
 @import "./basic.css";
+@import "./basic-filmulator.css";
 
 @import "./body.css";
 @import "./code.css";
@@ -23,8 +24,6 @@
 @import "./p.css";
 @import "./print.css";
 @import "./table.css";
-
-
 
 /* components */
 @import "../Btn/styles.css";

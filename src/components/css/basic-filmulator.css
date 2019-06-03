@@ -1,0 +1,7 @@
+:root {
+  /* filmulator */
+  --color-base: white;
+  --color-base-background: var(--color-darkGrayH);
+  --color-primary: var(--color-medOrange);
+  --color-secondary: var(--color-weakOrange);
+}
